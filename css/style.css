@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Poppins:wght@200;400;600&family=Zilla+Slab:wght@500&display=swap');
+
+
+* {
+    font-family: 'Alegreya SC', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Zilla Slab', serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 50px;
+    
+     
+}
+nav .logo{
+    background-color:white
+    color:black;
+    font-size: 20PX;
+}
+
+ul {
+    display: flex;
+    
+}
+
+ul li {
+    list-style: none;
+    padding: 0 20px;
+    font-size: 15px;
+}
+ul li a{
+    color:rgb(238, 255, 47) ;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: lavenderblush;
+}
+main{
+    height: 600px;
+}
+
+.logo h2{
+    padding: 0 -90px;
+    font-size: 1.5rem;
+    width: 23px 120px;
+    margin-right: 300px;
+}
+    
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 2px 510px;
+    align-items: center;
+    
+    
+}
+.container {
+    width:35vw;
+    margin:35px 25vw;
+    padding: 15px 50px ;
+    font-size: 16px;
+    background-color:whitesmoke;
+    
+}
+.container h1{
+    padding: 5px;
+}
+@media only screen and(max-width:600px) {
+    body{
+        background-color: aqua;
+    }
+    
+}
+
+
+
+.logo{
+    padding: 12px;
+}
+
+
+.logo img{
+    width:15px;
+    filter: invert(1);
+    color:orange;
+}
+.btn{
+    background: black;
+    color: azure;
+    padding: 4px 18px ;
+    border: 1px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#resultcount div {
+    text-transform: uppercase;
+}
+input{
+    padding: 10px;
+    min-width: 50px;
+    border: 2px solid darkblue;
+    border-radius: 4px red;
+}
+#resultcount img{
+    width: 23px;
+}
